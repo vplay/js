@@ -32,7 +32,7 @@ jQuery(document).ready(function(jQuery){
 				'\n\nh' +
 				'\n' + split + '\n' +
 				'Content-Disposition: form-data; name="color"' +
-				'\n\n' + color
+				'\n\n' + color +
 				'\n' + split + '\n' +
 				'Content-Disposition: form-data; name="userfile[]"; filename=""\n' +
 				'Content-Type: application/octet-stream\n' +
